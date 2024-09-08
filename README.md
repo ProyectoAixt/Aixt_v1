@@ -1,24 +1,26 @@
- [![](/static/img/Mlogo_138wh.png)MicroPython](http://micropython.org) Toggle navigation
+     MicroPython - Python for microcontrollers           
 
-*   [DOWNLOAD](/download)
-*   [DOCS](https://docs.micropython.org)
+ [![](./MicroPython - Python for microcontrollers_files/Mlogo_138wh.png)MicroPython](http://micropython.org/) Toggle navigation
+
+*   [DOWNLOAD](https://micropython.org/download)
+*   [DOCS](https://docs.micropython.org/)
 *   [DISCORD](https://micropython.org/discord)
 *   [DISCUSSIONS](https://github.com/orgs/micropython/discussions)
 *   [WIKI](https://github.com/micropython/micropython/wiki)
-*   [STORE](https://store.micropython.org)
+*   [STORE](https://store.micropython.org/)
 
 MicroPython
 ===========
 
 MicroPython is a lean and efficient implementation of the [Python 3](http://www.python.org/) programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
 
-The MicroPython [pyboard](/pyboard) is a compact electronic circuit board that runs MicroPython on the bare metal, giving you a low-level Python operating system that can be used to control all kinds of electronic projects.
+The MicroPython [pyboard](https://micropython.org/pyboard) is a compact electronic circuit board that runs MicroPython on the bare metal, giving you a low-level Python operating system that can be used to control all kinds of electronic projects.
 
 MicroPython is packed full of advanced features such as an interactive prompt, arbitrary precision integers, closures, list comprehension, generators, exception handling and more. Yet it is compact enough to fit and run within just 256k of code space and 16k of RAM.
 
 MicroPython aims to be as compatible with normal Python as possible to allow you to transfer code with ease from the desktop to a microcontroller or embedded system.
 
-[TEST DRIVE A PYBOARD](http://micropython.org/live) [BUY A PYBOARD](https://store.micropython.org) [USE MICROPYTHON ONLINE](/unicorn)
+[TEST DRIVE A PYBOARD](http://micropython.org/live) [BUY A PYBOARD](https://store.micropython.org/) [USE MICROPYTHON ONLINE](https://micropython.org/unicorn)
 
 Proper Python with hardware-specific modules
 ============================================
@@ -29,28 +31,24 @@ MicroPython strives to be as compatible as possible with normal Python (known as
 
 In addition to implementing a selection of core Python libraries, MicroPython includes modules such as "machine" for accessing low-level hardware.
 
-\# MicroPython has an inline assembler
+import pyb
 
-import micropython
+\# turn on an LED
+pyb.LED(1).on()
 
-\# define a Thumb-code inline-assembler function
-@micropython.asm\_thumb
-def asm\_add(r0, r1):
-    add(r0, r0, r1)
-
-\# use it as a normal Python function
-total \= asm\_add(1, 2)
+\# print some text to the serial console
+print('Hello MicroPython!')
 
 ←
 
-Example 5 / 7
+Example 1 / 7
 
 →
 
 The pyboard
 ===========
 
-[![pyboard v1.1](/static/home/img/pybv11-persp.jpg)](/static/pyboard)
+[![pyboard v1.1](./MicroPython - Python for microcontrollers_files/pybv11-persp.jpg)](https://micropython.org/static/pyboard)
 
 The pyboard is the official MicroPython microcontroller board with full support for software features. The hardware has:
 
@@ -69,9 +67,9 @@ The pyboard is the official MicroPython microcontroller board with full support 
 *   On-board 3.3V LDO voltage regulator, capable of supplying up to 250mA, input voltage range 3.6V to 16V
 *   DFU bootloader in ROM for easy upgrading of firmware
 
-[Visit the store to order!](https://store.micropython.org)
+[Visit the store to order!](https://store.micropython.org/)
 
-[![pyboard quick reference](/static/home/img/pybv10b-pinout.jpg)](http://docs.micropython.org/en/latest/pyboard/quickref.html)
+[![pyboard quick reference](./MicroPython - Python for microcontrollers_files/pybv10b-pinout.jpg)](http://docs.micropython.org/en/latest/pyboard/quickref.html)
 
 Watch MicroPython in action
 ===========================
@@ -79,13 +77,13 @@ Watch MicroPython in action
 Completely free, open source software
 =====================================
 
-![MicroPython is open-source](/static/home/img/opensource.jpg)
+![MicroPython is open-source](./MicroPython - Python for microcontrollers_files/opensource.jpg)
 
 MicroPython is written in C99 and the entire MicroPython core is available for general use under the very liberal [MIT license](https://github.com/micropython/micropython/blob/master/LICENSE). Most libraries and extension modules (some of which are from a third party) are also available under MIT or similar licenses.
 
 You can freely use and adapt MicroPython for personal use, in education, and in commercial products.
 
-MicroPython is developed in the open on GitHub and the source code is available at [the GitHub page](https://github.com/micropython/micropython), and on the [download page](/download). Everyone is welcome to contribute to the project.
+MicroPython is developed in the open on GitHub and the source code is available at [the GitHub page](https://github.com/micropython/micropython), and on the [download page](https://micropython.org/download). Everyone is welcome to contribute to the project.
 
 Code: state-of-the-art and highly robust
 ========================================
@@ -119,18 +117,18 @@ Online resources
 
 You can learn more about MicroPython and keep up-to-date with developments via the following resources:
 
-*   subscribe to [the newsletter](/newsletter)
-*   read [the documentation](http://docs.micropython.org)
-*   join the community at [the forum](http://forum.micropython.org)
+*   subscribe to [the newsletter](https://micropython.org/newsletter)
+*   read [the documentation](http://docs.micropython.org/)
+*   join the community at [the forum](http://forum.micropython.org/)
 *   submit bug reports, and follow and join in development [on GitHub](https://github.com/micropython/micropython)
 
-[![pyboards on parade](/static/home/img/colourhousings.jpg)](https://store.micropython.org/#/products/HOUSING-OB-1)
+[![pyboards on parade](./MicroPython - Python for microcontrollers_files/colourhousings.jpg)](https://store.micropython.org/#/products/HOUSING-OB-1)
 
-[Take me to the store!](https://store.micropython.org)
+[Take me to the store!](https://store.micropython.org/)
 
 ### MicroPython
 
-*   [Home](https://micropython.org)
+*   [Home](https://micropython.org/)
 *   [Discord](https://micropython.org/discord)
 *   [Discussions](https://github.com/orgs/micropython/discussions)
 *   [Wiki](https://github.com/micropython/micropython/wiki)
@@ -139,18 +137,18 @@ You can learn more about MicroPython and keep up-to-date with developments via t
 ### Resources
 
 *   [Tutorials](http://docs.micropython.org/en/latest/pyboard/tutorial/index.html)
-*   [Documentation](http://docs.micropython.org)
-*   [Download](/download)
+*   [Documentation](http://docs.micropython.org/)
+*   [Download](https://micropython.org/download)
 
 ### Contact
 
-*   [Contact us](/contact)
+*   [Contact us](https://micropython.org/contact)
 *   [IRC](irc://freenode/micropython)
 *   [Twitter](http://twitter.com/micropython)
 *   [Facebook](http://www.facebook.com/micropython)
-*   [Privacy Policy](/privacypolicy)
-*   [Terms & Conditions](/termsandconditions)
+*   [Privacy Policy](https://micropython.org/privacypolicy)
+*   [Terms & Conditions](https://micropython.org/termsandconditions)
 
-A project by [Damien George](http://dpgeorge.net)
+A project by [Damien George](http://dpgeorge.net/)
 
 © 2014-2023 George Robotics Limited
