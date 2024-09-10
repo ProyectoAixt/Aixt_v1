@@ -8,7 +8,7 @@
     <a href="#about">About</a>
   </div>
 </div>
-<img width="2000" height="0"><br>
+<img width="10" height="0"><br>
 
 Aixt Project
 ===============
