@@ -1,2 +1,1 @@
-![alt text for screen readers](/img/logo_final_1.jpg "Text to show on mouseover")
-
+<img align="left" width="200" height="100" src="/img/logo_final_1.jpg">
