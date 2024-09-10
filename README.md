@@ -12,7 +12,7 @@
 MicroPython
 ===========
 
-![alt text for screen readers](/img/logo_final.jpg "Text to show on mouseover").
+![alt text for screen readers](/img/logo_final_1.jpg "Text to show on mouseover").
 
 MicroPython is a lean and efficient implementation of the [Python 3](http://www.python.org/) programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
 
